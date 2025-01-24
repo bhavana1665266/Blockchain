@@ -1,0 +1,42 @@
+{% load static %}
+<html>
+<head>
+<title>A Blockchain based Decentralized Social Networking System</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+</head>
+<body >
+<div class="main">
+  <div class="main_resize">
+    <div class="header">
+      <div class="logo">
+        <h1><span>A Blockchain based Decentralized Social Networking System</span><small></small></h1>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content_bg">
+        <div class="menu_nav">
+          <ul>
+           <ul>
+      <li><a href="{% url 'index' %}">Home</a></li>
+      <li><a href="{% url 'Login' %}">User Login Here</a></li>
+      <li><a href="{% url 'Signup' %}">New User Signup Here</a></li>
+     
+   </ul>
+          </ul>
+        </div>
+        <div class="hbg"><img src="{% static 'images/blockchain.jpg' %}" width="1000" height="300" alt="" /></div>
+
+		{{ data }}
+
+       <p align="justify"><font size="3" style="font-family: Comic Sans MS" color="black">Online social networks are becoming more important in people's daily life, however, all popular Social Networking Systems are centralized, and this raises a series of security, privacy and management issues. A decentralized architecture based on blockchain technology provides the ability to solve above issues. </p>
+<p align="justify"><font size="3" style="font-family: Comic Sans MS" color="black">
+An Online Social Networking service is developed based on blockchain technology in order to make it operate decentralized. Large
+volume of data normally required low-security requirements can be stored in Interplanetary Filesystem (IPFS) to make data
+decentralized. A decentralized autonomous organization is developed for user autonomy, users can self-manage the OSN in a
+democratic way.
+</p>
+ 
+ 
+  </body>
+</html>
